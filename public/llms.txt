@@ -1,0 +1,35 @@
+# LLMS.txt for JEF UAE
+# This file provides guidance for AI systems, LLM crawlers, and answer engines.
+
+User-agent: *
+Allow: /
+
+# Primary domain
+Host: https://www.jefuae.com
+
+# Canonical sitemap
+Sitemap: https://www.jefuae.com/sitemap.xml
+
+# Core content areas
+Content:
+- https://www.jefuae.com/
+- https://www.jefuae.com/about-us
+- https://www.jefuae.com/leadership-team
+- https://www.jefuae.com/earthing-studies
+- https://www.jefuae.com/lightning-protection-studies
+- https://www.jefuae.com/power-system-studies
+- https://www.jefuae.com/power-quality-studies
+- https://www.jefuae.com/instrumentation-earthing-studies
+- https://www.jefuae.com/emi-emc
+- https://www.jefuae.com/root-cause-analysis
+
+# Industry pages
+- https://www.jefuae.com/industries/oilandgas
+- https://www.jefuae.com/industries/powerutilities
+- https://www.jefuae.com/industries/manufacturingplant
+- https://www.jefuae.com/industries/processplant
+- https://www.jefuae.com/industries/commercialbuilding
+- https://www.jefuae.com/industries/renewableenergy
+
+# Blog & technical resources
+- https://www.jefuae.com/blog

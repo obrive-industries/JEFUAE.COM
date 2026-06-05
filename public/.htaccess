@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Step 1: Redirect to HTTPS and www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^jefuae\.com$ [NC]
+RewriteRule ^(.*)$ https://www.jefuae.com/$1 [L,R=301]
+
+# Step 2: Proxy only if already HTTPS and www
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www\.jefuae\.com$ [NC]
+RewriteRule ^(.*)$ http://127.0.0.1:5001/$1 [P,L]
