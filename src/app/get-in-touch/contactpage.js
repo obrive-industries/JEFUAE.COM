@@ -1597,7 +1597,7 @@ export function OfficeLocations() {
         },
         {
             title: "UAE Office",
-            address: "Ground Floor, Accelerator Building Masdar City, Abu Dhabi, UAE. Dhabi, UAE.",
+            address: "First Floor, Incubator Building Masdar City, Abu Dhabi, UAE. Dhabi, UAE.",
             phone: "+971 552447290",
             email: "marketing@jeftechno.com",
         },
