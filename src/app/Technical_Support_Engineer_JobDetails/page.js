@@ -53,7 +53,7 @@ function JobDetails() {
 
                 <section className="flex p-4 lg:p-10 xl:p-10 flex-col items-start self-center mt-24 w-full max-w-[81rem] max-md:mt-10 max-md:max-w-full">
                     <article className="flex flex-col self-stretch pt-8 w-full rounded-3xl  max-md:max-w-full">
-                        <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-red-700 max-md:max-w-full">
+                        <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-[#FF0000] max-md:max-w-full">
                             <span className="flex flex-col justify-center py-1 px-2 rounded-xl bg-red-700/10">
                                 12 min ago
                             </span>
@@ -188,7 +188,7 @@ function JobInfoSection() {
             <div className="flex flex-col grow items-start mt-6 text-base text-stone-900 max-md:mt-10 max-md:max-w-full">
                 {/* Rest of the content remains the same as in original, just wrapped in semantic HTML tags */}
                 <article className="flex flex-col self-stretch max-md:max-w-full">
-                    <h2 className="text-2xl text-red-700 font-semibold">About JEF:</h2>
+                    <h2 className="text-2xl text-[#FF0000] font-semibold">About JEF:</h2>
                     <p className="mt-8 leading-6 max-md:max-w-full">
                         JEF is an innovative company with Indian roots and an extensive international presence across 28 countries in the ASEAN, Middle Eastern, African and European regions. We have been the preferred vendor for prestigious projects in many countries with 3000+ global customers and an astounding 90% customer retention rate.
                     </p>
@@ -247,19 +247,19 @@ function JobInfoSection() {
                         ))}
                     </ul>
 
-                    <h2 className="text-2xl text-red-700 font-semibold mt-10">What we offer</h2>
+                    <h2 className="text-2xl text-[#FF0000] font-semibold mt-10">What we offer</h2>
                     <ul className="list-none">
                         {whatweoffer.map((Profile, index) => (
                             <ServiceItem key={index}>{Profile}</ServiceItem>
                         ))}
                     </ul>
 
-                    <h2 className="text-2xl text-red-700 font-semibold mt-10">Your Reporting Line:</h2>
-                    <h2 className="text-xl text-red-700 font-light p-3 mt-8 border w-fit border-red-500">Manager- Technical Services</h2>
+                    <h2 className="text-2xl text-[#FF0000] font-semibold mt-10">Your Reporting Line:</h2>
+                    <h2 className="text-xl text-[#FF0000] font-light p-3 mt-8 border w-fit border-red-500">Manager- Technical Services</h2>
 
                     <div className='flex mt-16 gap-8'>
 
-                        <div className='text-2xl text-red-700 font-semibold'>Share Job:</div>
+                        <div className='text-2xl text-[#FF0000] font-semibold'>Share Job:</div>
                         <div className='flex h-8 gap-5'>
                             <img src="./CareerPage/FbLogo.png" alt="FbLogo" />
                             <img src="./CareerPage/Xlogo.png" alt="Xlogo" />
@@ -273,7 +273,7 @@ function JobInfoSection() {
     );
 }
 const SectionTitle = ({ children }) => (
-    <h2 className="text-2xl text-red-700 font-semibold mt-14 max-md:mt-10">
+    <h2 className="text-2xl text-[#FF0000] font-semibold mt-14 max-md:mt-10">
         {children}
     </h2>
 );

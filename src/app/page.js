@@ -961,7 +961,7 @@ export default function Home() {
           <div className="flex lg:items-end xl:items-start gap-0 md:gap-6 2xl:mt-0 lg:gap-16 justify-between 2xl:justify-center 2xl:gap-40 px-4 lg:px-0 max-lg:flex-col 2xl:ml-[100x] md:mr-[100px] md:ml-[85px]">
 
             <div className=" flex flex-col w-full lg:w-1/2 xl:w-3/5 2xl:w-1/2 py-16">
-              <div className="flex  z-10 lg:mt-12 2xl:mt-0 flex-col items-start  mr-0 font-light text-red-700 max-md:mt-10 max-md:max-w-full">
+              <div className="flex  z-10 lg:mt-12 2xl:mt-0 flex-col items-start  mr-0 font-light text-[#FF0000] max-md:mt-10 max-md:max-w-full">
                 <h1 className="text-3xl Y-axis-text font-bold uppercase tracking-[3px] max-md:max-w-full ">
                   Founder's message
                 </h1>
@@ -999,7 +999,7 @@ export default function Home() {
       <section className="py-16 overflow-x-hidden bg-neutral-100 ">
         <main className="lg:px-[100px] flex overflow-hidden flex-col justify-center items-center px-20 pt-20 w-full bg-neutral-100 max-md:px-5  max-md:max-w-full">
           <div className="flex flex-col items-start mb-0 w-full  max-md:max-w-full">
-            <header className="flex flex-wrap gap-5 justify-between self-stretch w-full text-red-700 uppercase max-md:max-w-full">
+            <header className="flex flex-wrap gap-5 justify-between self-stretch w-full text-[#FF0000] uppercase max-md:max-w-full">
               <h1 className=" text-4xl font-bold leading-none X-axis-anm tracking-[3.36px]">BLOGS</h1>
               <div className="gap-7 tracking-[1px]">
                 <div className="text-xs X-axis-anm my-auto opacity-0 cursor-default">40 ARTICLES IN TOTAL</div>
@@ -1022,7 +1022,7 @@ export default function Home() {
             </header>
             <div className=" justify-between w-full hidden">
               <nav className="flex gap-8 X-axis-anm mt-5 text-xs uppercase whitespace-nowrap max-md:mt-10">
-                <a href="#newest" className="text-red-700 basis-auto">Newest</a>
+                <a href="#newest" className="text-[#FF0000] basis-auto">Newest</a>
                 <a href="#oldest" className="text-neutral-900">Oldest</a>
               </nav>
             </div>
@@ -1267,7 +1267,7 @@ const WhatWeDoSection = () => {
                             {buttonData[hoveredButtonIndex]?.description || "Earthing studies assess the performance of grounding systems through soil resistivity testing and resistance measurements. These studies help ensure compliance with safety standards, protect equipment, and prevent electrical hazards."}
                           </p>
                           <Link href={buttonData[hoveredButtonIndex]?.path || "/grounding-system-studies"}>
-                            <button className="gap-2.5 text-xs 2xl:text-base self-stretch px-5 py-2 mt-12  text-red-700 uppercase bg-white hover:bg-red-700 hover:text-white 2xl:py-3 rounded-[50px] 2xl:px-12">
+                            <button className="gap-2.5 text-xs 2xl:text-base self-stretch px-5 py-2 mt-12  text-[#FF0000] uppercase bg-white hover:bg-red-700 hover:text-white 2xl:py-3 rounded-[50px] 2xl:px-12">
                               Read more
                             </button>
                           </Link>
@@ -1418,7 +1418,7 @@ function BlogCard({ imageSrc, title, path }) {
         </div>
         <div className="flex flex-col items-start mt-4 w-full max-w-[400px] max-md:pr-5">
           <h2 className="lg:text-base leading-6 lg:h-12 text-stone-900">{title}</h2>
-          <Link href={path} className="flex gap-2 mt-6 lg:text-xs tracking-widest leading-tight text-center text-red-700 uppercase">
+          <Link href={path} className="flex gap-2 mt-6 lg:text-xs tracking-widest leading-tight text-center text-[#FF0000] uppercase">
             <div className="text-xs grow">Read more</div>
             <img
               loading="lazy"

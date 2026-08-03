@@ -103,7 +103,7 @@ const Blog9 = () => {
                     <time className="text-base font-light text-black tracking-[2px]" dateTime="2024-08-15">
                         May 15, 2025
                     </time>
-                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-red-700 uppercase max-md:max-w-full">
+                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-[#FF0000] uppercase max-md:max-w-full">
                         AC Interference studies for Oil & Gas Utilities
                     </h1>
                     <p className="mt-10 text-base font-extralight leading-6 text-zinc-800 max-md:max-w-full">
@@ -133,7 +133,7 @@ const Blog9 = () => {
                     <p className="mt-5 text-base font-extralight leading-6 text-zinc-800 max-md:max-w-full">AC interference studies are vital for preventing corrosion, ensuring worker safety, complying with regulations, protecting infrastructure, and maintaining operational efficiency. They are a key part of a comprehensive pipeline maintenance and protection strategy for oil and gas utilities.</p>
 
                     <p className="mt-12 text-base font-medium leading-6 text-zinc-800 max-md:max-w-full">
-                        JEF offers comprehensive simulation studies to identify areas of concern and suggest mitigation strategies. Get in Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-red-700 mt-1">marketing@jeftechno.com</a>
+                        JEF offers comprehensive simulation studies to identify areas of concern and suggest mitigation strategies. Get in Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-[#FF0000] mt-1">marketing@jeftechno.com</a>
                     </p>
 
                     <div className="flex gap-4 items-center mt-10 max-md:mt-10">

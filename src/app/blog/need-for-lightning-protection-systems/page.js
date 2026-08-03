@@ -199,7 +199,7 @@ const Blog4 = () => {
                     <time className="text-base font-light text-black tracking-[2px]" dateTime="2024-08-15">
                         February 20, 2025
                     </time>
-                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-red-700 uppercase max-md:max-w-full">
+                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-[#FF0000] uppercase max-md:max-w-full">
                         Need for Lightning Protection Systems (LPS)
                     </h1>
                     <p className="mt-10 text-base font-extralight leading-6 text-zinc-800 max-md:max-w-full">
@@ -245,7 +245,7 @@ const Blog4 = () => {
                         JEF specializes in providing comprehensive Lightning Protection Studies to ensure the safety and protection of your structures from lightning strikes. Our experienced team uses advanced methodologies and standards to deliver effective lightning protection solutions as per IEC standards for both existing and new structures.
                     </p>
                     <p className="mt-10 text-base font-medium leading-6 text-zinc-800 max-md:max-w-full">
-                        Get In Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-red-700 mt-1">marketing@jeftechno.com</a>
+                        Get In Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-[#FF0000] mt-1">marketing@jeftechno.com</a>
                     </p>
 
                     <div className="flex gap-4 items-center mt-10 max-md:mt-10">

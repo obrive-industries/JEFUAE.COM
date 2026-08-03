@@ -174,7 +174,7 @@ const Blog3 = () => {
                     <time className="text-base font-light text-black tracking-[2px]" dateTime="2024-08-15">
                         February 12, 2025
                     </time>
-                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-red-700 uppercase max-md:max-w-full">
+                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-[#FF0000] uppercase max-md:max-w-full">
                         NEED FOR COMPREHENSIVE EARTHING AUDITS
                     </h1>
                     <p className="mt-10 text-base font-extralight leading-6 text-zinc-800 max-md:max-w-full">
@@ -207,7 +207,7 @@ const Blog3 = () => {
                         JEF offers comprehensive Earthing Audits to help pinpoint defective joints which can seriously affect the safety and performance of electrical systems. With several patents in this field, our level of expertise is unmatched.
                     </p>
                     <p className="mt-10 text-base font-medium leading-6 text-zinc-800 max-md:max-w-full">
-                        Get In Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-red-700 mt-1">marketing@jeftechno.com</a>
+                        Get In Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-[#FF0000] mt-1">marketing@jeftechno.com</a>
                     </p>
 
                     <div className="flex gap-4 items-center mt-10 max-md:mt-10">

@@ -155,7 +155,7 @@ const Blog8 = () => {
                     <time className="text-base font-light text-black tracking-[2px]" dateTime="2024-08-15">
                         April 28, 2025
                     </time>
-                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-red-700 uppercase max-md:max-w-full">
+                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-[#FF0000] uppercase max-md:max-w-full">
                         The Critical Need for Sub-Synchronous Oscillation Studies in Inverter-Based Power Plants
                     </h1>
                     <p className="mt-10 text-base font-extralight leading-6 text-zinc-800 max-md:max-w-full">
@@ -199,7 +199,7 @@ const Blog8 = () => {
                     </p>
 
                     <p className="mt-12 text-base font-medium leading-6 text-zinc-800 max-md:max-w-full">
-                        We at JEF have the ability to study any possible steady state, dynamic, EMT & Hormonic issues, in a new or existing plant. Get in Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-red-700 mt-1">marketing@jeftechno.com</a>
+                        We at JEF have the ability to study any possible steady state, dynamic, EMT & Hormonic issues, in a new or existing plant. Get in Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-[#FF0000] mt-1">marketing@jeftechno.com</a>
                     </p>
 
                     <div className="flex gap-4 items-center mt-10 max-md:mt-10">

@@ -14,7 +14,7 @@ const BlogPost = ({ date, title, content, imageUrl, path }) => (
         <h2 className="mt-2.5 text-lg leading-6 uppercase text-stone-900">{title}</h2>
         <p className="mt-3.5 text-sm font-extralight leading-6 text-stone-900">{content}</p>
         <div className="flex gap-2.5 items-center self-start mt-6">
-            <Link href={path} className='flex gap-4 items-center'><span className="self-stretch pb-px my-auto text-xs tracking-widest leading-tight text-red-700 uppercase">Learn More</span>
+            <Link href={path} className='flex gap-4 items-center'><span className="self-stretch pb-px my-auto text-xs tracking-widest leading-tight text-[#FF0000] uppercase">Learn More</span>
                 <span className="flex flex-col items-start self-stretch my-auto min-h-[15px] w-[17px]">
                     <span className="flex flex-col justify-center min-h-[15px] w-[15px]">
                         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6864a9076b57404370db3fa6548d76f9442f8db4ea6397d9235cbe4290b012c0?placeholderIfAbsent=true&apiKey=7904fd7afaaf4ee2b0837ab86d91b244" alt="" className="object-contain flex-1 w-full aspect-square" />
@@ -193,7 +193,7 @@ const Blog = () => {
                         </div>
                     </div>
                     {/* <nav className="flex gap-4 items-center justify-center mt-20 max-md:mt-10" aria-label="Pagination">
-          <button className="gap-2.5 self-stretch px-2.5 py-2 my-auto text-base text-red-700 uppercase whitespace-nowrap border border-red-700 border-solid min-h-[40px] rounded-[60px] w-[129px]">
+          <button className="gap-2.5 self-stretch px-2.5 py-2 my-auto text-base text-[#FF0000] uppercase whitespace-nowrap border border-red-700 border-solid min-h-[40px] rounded-[60px] w-[129px]">
             Previous
           </button>
           <button className="flex gap-2.5 justify-center items-center self-stretch px-2.5 py-2 my-auto bg-red-700 min-h-[40px] rounded-[60px] w-[129px]">

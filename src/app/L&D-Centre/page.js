@@ -28,7 +28,7 @@ const LD = () => {
                     <img loading="lazy" src="/HomePageImg/our-ld-centre-1.png" alt="" className="object-cover w-full h-screen" />
                 </header>
                 <section className="flex  overflow-hidden -mt-28 z-10 flex-col items-start self-center px-12 py-16 ml-4 max-w-full bg-white w-4/5 lg:w-3/5 max-md:px-5">
-                    <h1 className="text-3xl font-bold leading-none text-red-700 uppercase">
+                    <h1 className="text-3xl font-bold leading-none text-[#FF0000] uppercase">
                         L&D Centre
                     </h1>
                     <p className="self-stretch mt-7 text-base font-thin leading-6 text-zinc-800 max-md:max-w-full">

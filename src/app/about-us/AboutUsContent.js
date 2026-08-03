@@ -40,7 +40,7 @@ const Overview = () => {
                     <div className="flex Y-axis-card-anm max-md:flex-col">
                         <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
                             <div className="flex card-slider-Overview hover:bg-stone-800 hover:border-opacity-80 overflow-hidden flex-col grow items-start px-10 pt-12 pb-40 text-xl font-light leading-9 text-white border border-white border-opacity-20 max-md:px-5 max-md:pb-24">
-                                <div className="font-medium leading-10 text-center text-red-700 uppercase tracking-[4.53px] 2xl:h-24">
+                                <div className="font-medium leading-10 text-center text-[#FF0000] uppercase tracking-[4.53px] 2xl:h-24">
                                     From India to 28 countries
                                 </div>
                                 <div className="mt-16 text-lg max-md:mt-10">
@@ -53,7 +53,7 @@ const Overview = () => {
                         </div>
                         <div className="flex  flex-col w-[33%] max-md:ml-0 max-md:w-full">
                             <div className="flex card-slider-Overview hover:bg-stone-800 hover:border-opacity-80 overflow-hidden flex-col grow items-start px-10 pt-12 pb-40 text-xl font-light leading-9 text-white border border-white border-opacity-20 max-md:px-5 max-md:pb-24">
-                                <div className="font-medium leading-10 text-center text-red-700 uppercase tracking-[4.53px] 2xl:h-24">
+                                <div className="font-medium leading-10 text-center text-[#FF0000] uppercase tracking-[4.53px] 2xl:h-24">
                                     3000+ Global Customers
                                 </div>
                                 <div className="mt-16 font-light text-lg leading-9 text-white max-md:mt-10">
@@ -63,7 +63,7 @@ const Overview = () => {
                         </div>
                         <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
                             <div className="flex card-slider-Overview hover:bg-stone-800 hover:border-opacity-80 overflow-hidden flex-col grow items-start px-10 pt-12 pb-40 text-xl font-light leading-9 text-white border border-white border-opacity-20 max-md:px-5 max-md:pb-24">
-                                <div className="font-medium leading-10 text-center text-red-700 uppercase tracking-[4.53px] 2xl:h-[100px]">
+                                <div className="font-medium leading-10 text-center text-[#FF0000] uppercase tracking-[4.53px] 2xl:h-[100px]">
                                     30 Years of Industry Experience
                                 </div>
                                 <div className="mt-16 text-lg max-md:mt-10">
@@ -245,7 +245,7 @@ function LearningDevelopment() {
 //                 <div className="flex flex-col pb-5 text-xs tracking-wider leading-tight text-center uppercase text-zinc-900">
 //                     <div>{title}</div>
 //                 </div>
-//                 <div className="flex flex-col items-center text-base tracking-wider leading-none text-center text-red-700 uppercase whitespace-nowrap">
+//                 <div className="flex flex-col items-center text-base tracking-wider leading-none text-center text-[#FF0000] uppercase whitespace-nowrap">
 //                     <button className="flex items-center pb-1 h-5 border-b border-red-700">
 //                         <span className="self-stretch pb-px my-auto">{buttonText}</span>
 //                     </button>
@@ -266,7 +266,7 @@ function LearningDevelopment() {
 //             <div className="flex flex-col justify-center px-16 w-full max-w-[1440px] max-md:px-5 max-md:max-w-full">
 //                 <header className="flex flex-col self-center max-w-full text-center uppercase h-[129px] w-[406px]">
 //                     <div className="flex flex-col w-full">
-//                         <h2 className="w-[40%] md:w-[30%] self-center text-base tracking-widest leading-6 text-red-700 max-md:px-5">
+//                         <h2 className="w-[40%] md:w-[30%] self-center text-base tracking-widest leading-6 text-[#FF0000] max-md:px-5">
 //                             OUR LOCATIONS
 //                         </h2>
 //                         <h1 className="flex justify-center items-center mt-9 w-full text-5xl leading-none text-zinc-900 tracking-[4.53px] max-md:text-4xl">
@@ -445,7 +445,7 @@ function ExcellenceinElectricalEngineering() {
 
 const NavItem = ({ text, isActive }) => (
     <div
-        className={`self-stretch my-auto text-sm tracking-wide leading-none uppercase whitespace-nowrap ${isActive ? 'text-red-700' : 'text-neutral-300'
+        className={`self-stretch my-auto text-sm tracking-wide leading-none uppercase whitespace-nowrap ${isActive ? 'text-[#FF0000]' : 'text-neutral-300'
             }`}
     >
         {text}
@@ -700,7 +700,7 @@ const AboutUsContent = () => {
 
             <section className="flex overflow-hidden flex-col justify-center items-center px-20 py-24 text-center bg-zinc-800 max-md:px-5">
                 <div className="flex flex-col max-w-full w-[1115px]">
-                    <h2 className="flex flex-wrap gap-24 justify-center items-start self-center max-w-full text-3xl font-bold leading-none text-red-700 uppercase tracking-[3.36px] w-[714px] ">
+                    <h2 className="flex flex-wrap gap-24 justify-center items-start self-center max-w-full text-3xl font-bold leading-none text-[#FF0000] uppercase tracking-[3.36px] w-[714px] ">
                         <span className="pb-px Y-axis-text min-w-[240px] max-md:max-w-full ">
                             Our Approach
                         </span>
@@ -726,7 +726,7 @@ const AboutUsContent = () => {
                     <div className="flex flex-col md:flex-row gap-5">
                         <div className="flex flex-col w-full md:w-1/2">
                             <div className="flex flex-col self-stretch my-auto max-md:mt-10">
-                                <div className="flex flex-col justify-center p-2.5 w-full text-3xl sm:text-4xl font-semibold leading-none text-red-700 tracking-[0.28rem]">
+                                <div className="flex flex-col justify-center p-2.5 w-full text-3xl sm:text-4xl font-semibold leading-none text-[#FF0000] tracking-[0.28rem]">
                                     <div className="flex flex-col w-full h-[4.5rem]">
                                         <div className="flex relative flex-col w-full">
                                             <h2 className="pb-px Y-axis-text w-full">Brand History</h2>

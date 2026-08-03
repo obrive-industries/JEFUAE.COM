@@ -238,13 +238,13 @@ const Career = () => {
                                 Current Openings
                             </h2>
                         </div>
-                        <a href="#" className="text-xl font-semibold text-red-700">View all</a>
+                        <a href="#" className="text-xl font-semibold text-[#FF0000]">View all</a>
                     </div>
                     <div className="flex card-slider flex-col items-center mt-16 w-full max-md:mt-10 max-md:max-w-full">
                         {jobs.map((job) => (
                             <div key={job.id} className="Y-axis-card-anm flex flex-col p-10 mt-6 max-w-full bg-white rounded-3xl shadow-[0px_3px_8px_rgba(48,150,137,0.08)] w-[1296px] max-md:px-5">
                                 <div className="flex flex-col w-full max-md:max-w-full">
-                                    <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-red-700 max-md:max-w-full">
+                                    <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-[#FF0000] max-md:max-w-full">
                                         <div className="px-2 py-1.5 rounded-lg bg-red-700/10 min-h-[28px]">
                                             {job.timeAgo}
                                         </div>

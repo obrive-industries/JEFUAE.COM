@@ -145,7 +145,7 @@ const Blog6 = () => {
                     <time className="text-base font-light text-black tracking-[2px]" dateTime="2024-08-15">
                         March 11, 2025
                     </time>
-                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-red-700 uppercase max-md:max-w-full">
+                    <h1 className="self-stretch mt-4 text-xl lg:text-3xl font-bold leading-10 text-[#FF0000] uppercase max-md:max-w-full">
                         Electromagnetic Transient Studies for Renewable Energy Grid Integration - Part 1
                     </h1>
                     <p className="mt-10 text-base font-extralight leading-6 text-zinc-800 max-md:max-w-full">
@@ -185,7 +185,7 @@ const Blog6 = () => {
                     </Link>
 
                     <p className="mt-10 text-base font-medium leading-6 text-zinc-800 max-md:max-w-full">
-                        We at JEF specialize in EMT and Harmonic studies designed for Middle East renewable energy deployments. <br /> Get in Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-red-700 mt-1">marketing@jeftechno.com</a>
+                        We at JEF specialize in EMT and Harmonic studies designed for Middle East renewable energy deployments. <br /> Get in Touch with us to know more. <br /> <a href="mailto:marketing@jeftechno.com" className="text-[#FF0000] mt-1">marketing@jeftechno.com</a>
                     </p>
 
                     <div className="flex gap-4 items-center mt-10 max-md:mt-10">

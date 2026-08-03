@@ -348,7 +348,7 @@ const RootCause = () => {
             <div className="flex items-center h-full min-w-[240px]">
               {navItems.map((item, index) => (
                 <div key={index} className="flex items-center self-stretch my-auto">
-                  <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-red-700' : 'text-neutral-300'}`}>
+                  <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-[#FF0000]' : 'text-neutral-300'}`}>
                     {item.label}
                   </div>
                   {item.isActive && (
@@ -382,7 +382,7 @@ const RootCause = () => {
           innovating further.
         </p> */}
         </header>
-        <div className="flex ContactUsAnimation flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-red-700 w-[770px] max-md:mt-10">
+        <div className="flex ContactUsAnimation flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-[#FF0000] w-[770px] max-md:mt-10">
           <p className="px-56 w-full max-md:px-5 max-md:max-w-full">
             Get in touch for Real-Life Case Studies and Testimonials
           </p>
@@ -426,7 +426,7 @@ const RootCause = () => {
               </div>
             )}
             <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-              <h2 className="self-center text-3xl font-semibold leading-none text-red-700 tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+              <h2 className="self-center text-3xl font-semibold leading-none text-[#FF0000] tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                 Our Services
               </h2>
               <div className="circle-slider flex flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -477,7 +477,7 @@ const RootCause = () => {
               </div>
             )}
             <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-              <h2 className="self-center text-3xl font-semibold leading-none text-red-700 tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+              <h2 className="self-center text-3xl font-semibold leading-none text-[#FF0000] tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                 Our Services
               </h2>
               <div className="flex circle-slider flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -692,7 +692,7 @@ function CarouselSection({ components }) {
   return (
     <section className="flex xl:px-[100px] lg:px-[60px] flex-col items-start px-5 pt-16 pb-32 bg-black">
       <div className="flex flex-wrap gap-5 justify-between w-full">
-        <h2 className="md:text-3xl text-2xl font-bold leading-none text-red-700 uppercase">
+        <h2 className="md:text-3xl text-2xl font-bold leading-none text-[#FF0000] uppercase">
           JEF’s Root Cause Analysis Services
         </h2>
         <div className="flex self-end flex-col min-h-[60px]">
@@ -746,7 +746,7 @@ function CarouselSection({ components }) {
               }}
             >
               <img src={component.imageSrc} alt={component.title} className="h-[3rem]" />
-              <h3 className="text-red-700 font-normal w-[80vw] sm:w-[90%] text-2xl xl:h-28 2xl:h-20 sm:text-start my-5 text-center">{component.title}</h3>
+              <h3 className="text-[#FF0000] font-normal w-[80vw] sm:w-[90%] text-2xl xl:h-28 2xl:h-20 sm:text-start my-5 text-center">{component.title}</h3>
               <div className=" text-gray-400 mb-6 text-center w-[80vw] sm:w-[70%] font-thin lg:w-[80%] flex items-start gap-4 sm:text-start text-lg max-w-screen-xl">
                 <span>•</span>{component.description}</div>
               <div className=" text-gray-400 text-center w-[80vw] sm:w-[70%] font-thin lg:w-[80%] flex items-start gap-4 sm:text-start text-lg max-w-screen-xl">
@@ -870,7 +870,7 @@ const VerticalCarousel = () => {
               {cardContents.map((content, index) => (
                 <div
                   key={index}
-                  className={`flex flex-col items-start text-2xl  md:text-3xl text-red-700 mt-12 lg:mt-0 lg:w-full ${isScreenTall ? 'h-screen 2xl:min-h-[120vh]' : 'h-screen'}`}
+                  className={`flex flex-col items-start text-2xl  md:text-3xl text-[#FF0000] mt-12 lg:mt-0 lg:w-full ${isScreenTall ? 'h-screen 2xl:min-h-[120vh]' : 'h-screen'}`}
                 >
                   <img
                     loading="lazy"

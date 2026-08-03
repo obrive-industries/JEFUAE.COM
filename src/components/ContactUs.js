@@ -86,7 +86,7 @@ const ContactUs = () => {
         <img src="/HomePageImg/ContactUsMainImg.png" alt="" className="object-cover z-10 absolute inset-0 size-full" />
         <div className="flex z-20 lg:mx-[1%] relative flex-col items-start mb-0 max-w-full w-[521px] max-md:mb-2.5">
 
-          <h1 className="text-2xl Y-axis-text lg:text-3xl font-semibold text-red-700 uppercase tracking-[2px] max-md:text-4xl">
+          <h1 className="text-2xl Y-axis-text lg:text-3xl font-semibold text-[#FF0000] uppercase tracking-[2px] max-md:text-4xl">
             Contact us
           </h1>
 
@@ -94,7 +94,7 @@ const ContactUs = () => {
             Get in touch with us for any business enquiry.
           </p>
           {showConfirmation ? (
-            <div className='w-full flex flex-col items-start gap-12 thank-you mt-16 text-xl Y-axis-text lg:text-2xl font-semibold text-red-700 uppercase tracking-[2px]'>
+            <div className='w-full flex flex-col items-start gap-12 thank-you mt-16 text-xl Y-axis-text lg:text-2xl font-semibold text-[#FF0000] uppercase tracking-[2px]'>
               <div className='leading-tight'>Thank You…!! </div>
               <div className='leading-tight'>Our team has received your information, will get in touch with you within the next 24 hours to discuss how we can help bring your vision to life.</div>
             </div>

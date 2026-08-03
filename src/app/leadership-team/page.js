@@ -200,7 +200,7 @@ export default function Team() {
                         <div className="flex items-center h-full min-w-[240px]">
                             {navItems.map((item, index) => (
                                 <div key={index} className="flex items-center self-stretch my-auto">
-                                    <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-red-700' : 'text-neutral-300'}`}>
+                                    <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-[#FF0000]' : 'text-neutral-300'}`}>
                                         {item.label}
                                     </div>
                                     {item.isActive && (
@@ -257,7 +257,7 @@ export default function Team() {
                                 <h2 className="mt-6 text-xl text-zinc-900 font-medium">
                                     {leader.name}
                                 </h2>
-                                <p className={`mt-4 text-sm ${leader.variant === 'red' ? 'text-red-700' : 'text-yellow-600'
+                                <p className={`mt-4 text-sm ${leader.variant === 'red' ? 'text-[#FF0000]' : 'text-yellow-600'
                                     }`}>
                                     {leader.title}
                                 </p>

@@ -358,7 +358,7 @@ const IES = () => {
                         <div className="flex items-center h-full min-w-[240px]">
                             {navItems.map((item, index) => (
                                 <div key={index} className="flex items-center self-stretch my-auto">
-                                    <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-red-700' : 'text-neutral-300'}`}>
+                                    <div className={`self-stretch my-auto text-xs tracking-wide leading-none uppercase whitespace-nowrap ${item.isActive ? 'text-[#FF0000]' : 'text-neutral-300'}`}>
                                         {item.label}
                                     </div>
                                     {item.isActive && (
@@ -398,7 +398,7 @@ const IES = () => {
                         Partner with JEF for unparalleled expertise in Instrumentation Grounding audits and
                         experience the difference in safety, efficiency and reliability of your operations.</p>
                 </header>
-                <div className="flex ContactUsAnimation flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-red-700 w-[770px] max-md:mt-10">
+                <div className="flex ContactUsAnimation flex-col self-center mt-14 max-w-full text-sm md:text-base leading-6 text-center text-[#FF0000] w-[770px] max-md:mt-10">
                     <p className="px-56 w-full max-md:px-5 max-md:max-w-full">
                         Get in touch for any queries and real-life case-studies
                     </p>
@@ -445,7 +445,7 @@ const IES = () => {
                             </div>
                         )}
                         <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-                            <h2 className="self-center text-3xl font-semibold leading-none text-red-700 tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+                            <h2 className="self-center text-3xl font-semibold leading-none text-[#FF0000] tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                                 Our Services
                             </h2>
                             <div className="circle-slider flex flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -496,7 +496,7 @@ const IES = () => {
                             </div>
                         )}
                         <section className="flex overflow-hidden flex-col text-base leading-6 text-center text-white uppercase w-full relative z-10">
-                            <h2 className="self-center text-3xl font-semibold leading-none text-red-700 tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
+                            <h2 className="self-center text-3xl font-semibold leading-none text-[#FF0000] tracking-[4.53px] max-md:max-w-full max-md:text-4xl">
                                 Our Services
                             </h2>
                             <div className="flex circle-slider flex-wrap justify-center mt-20 max-md:mt-10 w-full h-full">
@@ -709,7 +709,7 @@ function CarouselSection({ components }) {
     return (
         <section className="flex xl:px-[100px] lg:px-[60px] flex-col items-start px-5 pt-16 pb-32 bg-black">
             <div className="flex flex-wrap gap-5 justify-between w-full">
-                <h2 className="md:text-3xl text-2xl font-bold leading-none text-red-700 uppercase">
+                <h2 className="md:text-3xl text-2xl font-bold leading-none text-[#FF0000] uppercase">
                     KEY COMPONENTS OF THE STUDY
                 </h2>
                 <div className="flex self-end flex-col min-h-[60px]">
@@ -763,7 +763,7 @@ function CarouselSection({ components }) {
                             }}
                         >
                             <img src={component.imageSrc} alt={component.title} className="h-[3rem]" />
-                            <h3 className="text-red-700 font-normal w-[80vw] sm:w-[90%] text-2xl sm:text-start my-5 text-center">{component.title}</h3>
+                            <h3 className="text-[#FF0000] font-normal w-[80vw] sm:w-[90%] text-2xl sm:text-start my-5 text-center">{component.title}</h3>
                             <p className=" text-gray-400 text-center w-[80vw] sm:w-[70%] font-thin lg:w-[80%] sm:text-start text-lg max-w-screen-xl">{component.description}</p>
                         </div>
                     ))}
@@ -889,7 +889,7 @@ function CarouselSection({ components }) {
 //               {cardContents.map((content, index) => (
 //                   <div
 //                     key={index}
-//                     className="flex flex-col items-start text-2xl  md:text-3xl text-red-700 h-screen max-md:max-w-full"
+//                     className="flex flex-col items-start text-2xl  md:text-3xl text-[#FF0000] h-screen max-md:max-w-full"
 //                   >
 //                     <img
 //                       loading="lazy"
@@ -1050,7 +1050,7 @@ const slides = [
 function InstrumentationStudiesPage() {
     return (
         <main className="flex overflow-hidden flex-col items-center bg-stone-900 pt-[10%] max-md:pt-24">
-            <h1 className="text-xl lg:text-2xl font-bold text-center text-red-700 uppercase lg:leading-[3.0625rem] tracking-[0.28313rem] w-[72.5rem] max-md:max-w-full">
+            <h1 className="text-xl lg:text-2xl font-bold text-center text-[#FF0000] uppercase lg:leading-[3.0625rem] tracking-[0.28313rem] w-[72.5rem] max-md:max-w-full">
                 INTERNATIONAL STANDARDS THAT WE ADHERE TO FOR PERFORMING INSTRUMENTATION EARTHING STUDIES
             </h1>
             <StandardList standards={standards} />
@@ -1109,7 +1109,7 @@ function KeyCheckPoints({ slides }) {
                     >
                         {slides.map((slide, index) => (
                             <div key={index} className="slide">
-                                <h3 className="grow text-2xl text-red-700 uppercase tracking-[0.28313rem] max-md:mt-10 max-md:max-w-full">
+                                <h3 className="grow text-2xl text-[#FF0000] uppercase tracking-[0.28313rem] max-md:mt-10 max-md:max-w-full">
                                     {slide.title}
                                 </h3>
                                 <ul className="mt-8 w-full max-w-[75.375rem] max-md:mr-2.5 max-md:max-w-full">

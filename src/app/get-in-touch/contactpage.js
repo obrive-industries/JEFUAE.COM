@@ -1322,7 +1322,7 @@ const GetInTouchForm = () => {
                                                 <div className="flex relative gap-4 lg:gap-10 w-full text-xs max-md:max-w-full">
                                                     <label htmlFor="name" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
                                                         <span className="text-stone-900 font-normal">FIRST NAME </span>
-                                                        <span className="text-red-700">*</span>
+                                                        <span className="text-[#FF0000]">*</span>
                                                     </label>
                                                     <div className="absolute right-px self-start h-3 font-light tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                         40 characters
@@ -1350,7 +1350,7 @@ const GetInTouchForm = () => {
                                                 <div className="flex relative gap-4 lg:gap-10 w-full text-xs max-md:max-w-full">
                                                     <label htmlFor="name" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
                                                         <span className="text-stone-900 font-normal">LAST NAME </span>
-                                                        <span className="text-red-700">*</span>
+                                                        <span className="text-[#FF0000]">*</span>
                                                     </label>
                                                     <div className="absolute right-px self-start h-3 font-light tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                         80 characters
@@ -1379,7 +1379,7 @@ const GetInTouchForm = () => {
                                                 <div className="flex relative gap-10 w-full text-xs max-md:max-w-full">
                                                     <label htmlFor="email" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
                                                         <span className="text-stone-900">Business Email address </span>
-                                                        <span className="text-red-700">*</span>
+                                                        <span className="text-[#FF0000]">*</span>
                                                     </label>
                                                     <div className="absolute -right-px self-start h-3 font-normal tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                         100 characters
@@ -1404,7 +1404,7 @@ const GetInTouchForm = () => {
                                         <div className="flex flex-col w-full max-md:max-w-full">
                                             <div className="flex flex-wrap gap-1 items-start pb-px w-full text-xs max-md:max-w-full">
                                                 <label htmlFor="phone" className="tracking-widest leading-tight  uppercase text-stone-900">
-                                                    Phone number <span className="text-red-700">*</span>
+                                                    Phone number <span className="text-[#FF0000]">*</span>
                                                 </label>
                                             </div>
                                             <div className="flex flex-wrap gap-5 justify-center mt-2.5 w-full text-sm font-thin max-md:max-w-full">
@@ -1450,7 +1450,7 @@ const GetInTouchForm = () => {
                                             <div className="flex relative gap-10 w-full text-xs max-md:max-w-full">
                                                 <label htmlFor="company" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
                                                     <span className="text-stone-900">Company name </span>
-                                                    <span className="text-red-700">*</span>
+                                                    <span className="text-[#FF0000]">*</span>
                                                 </label>
                                                 <div className="absolute -right-px self-start h-3 font-normal tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                     100 characters
@@ -1475,7 +1475,7 @@ const GetInTouchForm = () => {
                                             <div className="flex relative gap-10 w-full max-md:max-w-full">
                                                 <label htmlFor="query" className="tracking-widest leading-tight uppercase min-w-[240px] text-zinc-900 w-[473px] max-md:max-w-full">
                                                     <span className="text-stone-900">Query </span>
-                                                    <span className="text-red-700">*</span>
+                                                    <span className="text-[#FF0000]">*</span>
                                                 </label>
                                                 <div className="absolute -right-px self-start h-3 font-thin tracking-wide leading-none min-h-[12px] text-zinc-600">
                                                     1000 characters
@@ -1497,7 +1497,7 @@ const GetInTouchForm = () => {
                                 <div className="flex flex-col justify-center pb-2.5 w-full h-6 text-xs tracking-widest leading-tight uppercase max-md:max-w-full">
                                     <div className="flex flex-wrap gap-1 items-start w-full h-[15px] max-md:max-w-full">
                                         <div className="text-stone-900">Marketing Permissions</div>
-                                        <div className="text-red-700">*</div>
+                                        <div className="text-[#FF0000]">*</div>
                                     </div>
                                 </div>
                                 <div className="flex flex-wrap gap-10 w-full max-md:max-w-full">
@@ -1550,8 +1550,8 @@ const GetInTouchForm = () => {
                                     <div className="hidden lg:flex flex-col flex-1 grow shrink-0 text-sm font-normal leading-5 basis-0 min-h-[90px] text-stone-900 w-fit max-md:max-w-full">
                                         <p className="z-10 pt-0 pb-7 w-full max-md:max-w-full">
                                             By completing this form you are agreeing to being contacted by JEF, If you would also like to hear updates from other parts of JEF please select Yes. We will treat your information carefully. See our{" "}
-                                            <a href="/termsandconditions" className="font-medium text-red-700">terms and Conditions</a>{" "}
-                                            and <a href="/privacypolicy" className="font-medium text-red-700">privacy policy</a>{" "}
+                                            <a href="/termsandconditions" className="font-medium text-[#FF0000]">terms and Conditions</a>{" "}
+                                            and <a href="/privacypolicy" className="font-medium text-[#FF0000]">privacy policy</a>{" "}
                                             for more details.
                                         </p>
                                     </div>
@@ -1559,8 +1559,8 @@ const GetInTouchForm = () => {
                                 <div className="flex lg:hidden flex-col flex-1 grow shrink-0 text-sm font-normal leading-5 basis-0 min-h-[90px] text-stone-900 w-fit max-md:max-w-full">
                                     <p className="z-10 pt-0 pb-7 w-full max-md:max-w-full">
                                         By completing this form you are agreeing to being contacted by JEF, If you would also like to hear updates from other parts of JEF please select Yes. We will treat your information carefully. See our{" "}
-                                        <a href="#" className="font-medium text-red-700">terms of use</a>{" "}
-                                        and <a href="#" className="font-medium text-red-700">privacy policy</a>{" "}
+                                        <a href="#" className="font-medium text-[#FF0000]">terms of use</a>{" "}
+                                        and <a href="#" className="font-medium text-[#FF0000]">privacy policy</a>{" "}
                                         for more details.
                                     </p>
                                 </div>
@@ -1618,7 +1618,7 @@ export function OfficeLocations() {
     return (
         <main className="flex flex-col items-center bg-neutral-100 px-5 sm:px-8 md:px-12 2xl:px-20 pt-10 xl:pt-0 pb-12 sm:pb-16 md:pb-20 ">
             <section className="w-full max-w-[68.688rem] xl:max-w-full 2xl:max-w-[1300px] mx-auto xl:mx-0">
-                <h1 className="text-2xl sm:text-3xl text-red-700 text-center mb-8 sm:mb-12 md:mb-16">
+                <h1 className="text-2xl sm:text-3xl text-[#FF0000] text-center mb-8 sm:mb-12 md:mb-16">
                     JEF offices
                 </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6 md:gap-8">
@@ -1627,7 +1627,7 @@ export function OfficeLocations() {
                             key={index}
                             className="flex flex-col p-4 rounded-lg bg-neutral-100 hover:shadow-md transition-shadow duration-300"
                         >
-                            <h2 className="text-base font-medium text-red-700 mb-4">
+                            <h2 className="text-base font-medium text-[#FF0000] mb-4">
                                 {office.title}
                             </h2>
                             <p
