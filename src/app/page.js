@@ -880,7 +880,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="w-1/2 2xl:w-2/5 flex flex-col">
-                  <div className="text-base font-semibold tracking-widest text-red-700 uppercase mb-16">
+                  <div className="text-base font-semibold tracking-widest text-[#FF0000] uppercase mb-16">
                     Why choose JEF ?
                   </div>
                   <div className="">
