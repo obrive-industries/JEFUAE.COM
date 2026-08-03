@@ -203,7 +203,7 @@ const Career = () => {
                   </div>
                 </div>
               </div>
-              <button type="submit" className="flex overflow-hidden gap-2.5 justify-center items-center px-7 py-3.5 h-full text-lg font-semibold text-white bg-red-700 max-md:px-5">
+              <button type="submit" className="flex overflow-hidden gap-2.5 justify-center items-center px-7 py-3.5 h-full text-lg font-semibold text-white bg-[#FF0000] max-md:px-5">
                 <img loading="lazy" src="http://b.io/ext_36-" alt="" className="object-contain shrink-0 self-stretch my-auto w-4 aspect-square" />
                 <span className="self-stretch my-auto">Search Job</span>
               </button>
@@ -212,7 +212,7 @@ const Career = () => {
           <div className="flex flex-wrap gap-10 justify-between items-center mt-20 max-w-full w-[600px] max-md:mt-10">
             {statistics.map((stat, index) => (
               <div key={index} className="flex gap-3 items-center self-stretch my-auto w-40">
-                <div className="flex overflow-hidden gap-2.5 justify-center items-center self-stretch p-1 my-auto bg-red-700 w-[3vw] rounded-full aspect-square">
+                <div className="flex overflow-hidden gap-2.5 justify-center items-center self-stretch p-1 my-auto bg-[#FF0000] w-[3vw] rounded-full aspect-square">
                   <img loading="lazy" src={stat.icon} alt="" className="object-cover self-stretch my-auto aspect-square" />
                 </div>
                 <div className="flex flex-col self-stretch my-auto whitespace-nowrap">
@@ -245,7 +245,7 @@ const Career = () => {
                             <div key={job.id} className="Y-axis-card-anm flex flex-col p-10 mt-6 max-w-full bg-white rounded-3xl shadow-[0px_3px_8px_rgba(48,150,137,0.08)] w-[1296px] max-md:px-5">
                                 <div className="flex flex-col w-full max-md:max-w-full">
                                     <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-[#FF0000] max-md:max-w-full">
-                                        <div className="px-2 py-1.5 rounded-lg bg-red-700/10 min-h-[28px]">
+                                        <div className="px-2 py-1.5 rounded-lg bg-[#FF0000]/10 min-h-[28px]">
                                             {job.timeAgo}
                                         </div>
                                         <img loading="lazy" src="./CareerPage/BookmarkLogo.png" alt="" className="object-contain shrink-0 w-6 aspect-square" />
@@ -278,7 +278,7 @@ const Career = () => {
                                         </div>
                                     </div>
                                     <Link href={job.path}>
-                                        <button className="overflow-hidden gap-2.5 self-stretch px-5 py-2 text-white capitalize bg-red-700 rounded-lg min-h-[40px]">
+                                        <button className="overflow-hidden gap-2.5 self-stretch px-5 py-2 text-white capitalize bg-[#FF0000] rounded-lg min-h-[40px]">
                                             Job details
                                         </button>
                                     </Link>

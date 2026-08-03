@@ -150,7 +150,7 @@ const ContactUs = () => {
               </div>
               <button
                 form="userDetailsForm" type="submit"
-                className="overflow-hidden Y-axis-text px-16 py-3 mt-2 max-w-full text-xl font-semibold text-white whitespace-nowrap bg-red-700 rounded-3xl w-[380px] max-md:px-5"
+                className="overflow-hidden Y-axis-text px-16 py-3 mt-2 max-w-full text-xl font-semibold text-white whitespace-nowrap bg-[#FF0000] rounded-3xl w-[380px] max-md:px-5"
               >
                 Submit
               </button>

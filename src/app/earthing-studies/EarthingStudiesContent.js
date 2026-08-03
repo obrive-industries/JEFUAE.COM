@@ -294,7 +294,7 @@ const EarthingStudiesContent = () => {
   ]
 
   const buttons = [
-    { text: 'CONTACT US', className: 'bg-red-700' }
+    { text: 'CONTACT US', className: 'bg-[#FF0000]' }
   ];
 
 
@@ -320,7 +320,7 @@ const EarthingStudiesContent = () => {
             </h1>
             <div className="flex gap-6 items-center self-start mt-8 text-lg uppercase text-neutral-900  max-md:mt-10">
               <Link href={'/get-in-touch'}>
-                <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 cursor-pointer border-opacity-10 text-lg hover:bg-red-700 hover:text-white 2xl:min-h-[64px] rounded-[50px]">
+                <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 cursor-pointer border-opacity-10 text-lg hover:bg-[#FF0000] hover:text-white 2xl:min-h-[64px] rounded-[50px]">
                   Get in touch
                 </button>
               </Link>
@@ -573,7 +573,7 @@ function TestimonialsSection() {
               </div>
               <div className="flex flex-wrap justify-center mt-10 max-w-full tracking-wider text-white uppercase w-full   mx-auto">
                 <Link href={'/get-in-touch'}>
-                  <button className={`flex overflow-hidden text-sm justify-center bg-red-700 items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
+                  <button className={`flex overflow-hidden text-sm justify-center bg-[#FF0000] items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
                     CONTACT US
                   </button>
                 </Link>

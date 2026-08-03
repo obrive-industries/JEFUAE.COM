@@ -248,7 +248,7 @@ const Navbar = () => {
                                 )}
                             </AnimatePresence>
                             <Link href='/get-in-touch' className='z-20'>
-                                <button className="gap-3 uppercase cursor-pointer self-stretch py-3 px-4 md:py-2 lg:py-3 md:px-4 lg:px-7 my-auto text-xs md:text-sm text-[#FF0000] bg-white hover:text-white hover:bg-red-700 rounded-[30px] tracking-[2px] whitespace-nowrap">
+                                <button className="gap-3 uppercase cursor-pointer self-stretch py-3 px-4 md:py-2 lg:py-3 md:px-4 lg:px-7 my-auto text-xs md:text-sm text-[#FF0000] bg-white hover:text-white hover:bg-[#FF0000] rounded-[30px] tracking-[2px] whitespace-nowrap">
                                     Contact Us
                                 </button>
                             </Link>

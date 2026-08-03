@@ -1566,7 +1566,7 @@ const GetInTouchForm = () => {
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center items-start pt-1 mt-9 w-full text-lg font-extralight tracking-widest leading-none text-center text-white uppercase whitespace-nowrap max-md:max-w-full">
-                                <button form="userDetailsForm" type="submit" className="flex overflow-hidden uppercase w-40 h-14 justify-center items-center self-center lg:self-stretch px-7 py-3.5 my-auto bg-red-700 rounded-full ">
+                                <button form="userDetailsForm" type="submit" className="flex overflow-hidden uppercase w-40 h-14 justify-center items-center self-center lg:self-stretch px-7 py-3.5 my-auto bg-[#FF0000] rounded-full ">
                                     Submit
                                 </button>
                             </div>

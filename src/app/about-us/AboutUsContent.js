@@ -612,7 +612,7 @@ const AboutUsContent = () => {
                         </h1>
                         <div className="flex gap-6 items-center self-start mt-8 text-lg uppercase text-neutral-900  max-md:mt-10">
                             <Link href={'/get-in-touch'}>
-                                <button className="uppercase cursor-pointer Y-axis-text-Title px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-red-700 hover:text-white 2xl:min-h-[64px] rounded-[50px]">
+                                <button className="uppercase cursor-pointer Y-axis-text-Title px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-[#FF0000] hover:text-white 2xl:min-h-[64px] rounded-[50px]">
                                     Get in touch
                                 </button>
                             </Link>

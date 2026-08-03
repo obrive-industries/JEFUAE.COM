@@ -54,7 +54,7 @@ function JobDetails() {
                 <section className="flex p-4 lg:p-10 xl:p-10 flex-col items-start self-center mt-24 w-full max-w-[81rem] max-md:mt-10 max-md:max-w-full">
                     <article className="flex flex-col self-stretch pt-8 w-full rounded-3xl  max-md:max-w-full">
                         <div className="flex flex-wrap gap-10 justify-between items-start w-full text-base text-[#FF0000] max-md:max-w-full">
-                            <span className="flex flex-col justify-center py-1 px-2 rounded-xl bg-red-700/10">
+                            <span className="flex flex-col justify-center py-1 px-2 rounded-xl bg-[#FF0000]/10">
                                 12 min ago
                             </span>
                             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bbbc56d84eb925a582acb30e6b9d6a52b24cb413a44e882b3923619e273f5f71?placeholderIfAbsent=true&apiKey=ec02862acd164f0aad3ceef0d2a999c3" alt="" className="object-contain shrink-0 w-6 aspect-square" />
@@ -76,7 +76,7 @@ function JobDetails() {
                                     <IconText key={index} icon={item.icon} text={item.text} />
                                 ))}
                             </div>
-                            <button className="overflow-hidden gap-2.5 self-stretch py-2 px-5 text-white bg-red-700 rounded-lg min-h-[3.125rem] min-w-[15rem] w-[18.813rem]">
+                            <button className="overflow-hidden gap-2.5 self-stretch py-2 px-5 text-white bg-[#FF0000] rounded-lg min-h-[3.125rem] min-w-[15rem] w-[18.813rem]">
                                 Apply Job
                             </button>
                         </div>
@@ -121,7 +121,7 @@ function JobOverviewCard({ data }) {
     ];
 
     return (
-        <section className="flex overflow-hidden flex-col px-5 pt-7 pb-5 mx-auto w-full rounded-3xl bg-red-700/10 max-md:mt-6">
+        <section className="flex overflow-hidden flex-col px-5 pt-7 pb-5 mx-auto w-full rounded-3xl bg-[#FF0000]/10 max-md:mt-6">
             <h3 className="text-lg font-bold text-stone-900">Job Overview</h3>
             <div className="flex flex-col mt-8 w-full text-base">
                 {overviewItems.map((item, index) => (

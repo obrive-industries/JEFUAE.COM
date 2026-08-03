@@ -903,7 +903,7 @@ export default function Home() {
                         Our patented Smart Digitization process delivers consistency, speed, accuracy and reliability at scale. Trusted by over 450+ customers globally, it delivers secure, standardized reports with customizable formats— over 5,000 reports and a million data points captured to date.
                       </div>
                       <div className="w-fit opacity-0">
-                        <button className="flex cursor-default text-wrap gap-2 justify-center items-center self-start px-2 text-xs uppercase bg-red-700 border border-solid border-zinc-900 border-opacity-10 rounded-[50px]">
+                        <button className="flex cursor-default text-wrap gap-2 justify-center items-center self-start px-2 text-xs uppercase bg-[#FF0000] border border-solid border-zinc-900 border-opacity-10 rounded-[50px]">
                           <span className="py-3 pl-4 my-auto">Read More</span>
                           <img
                             loading="lazy"
@@ -919,7 +919,7 @@ export default function Home() {
                         At JEF, we are committed to continuous improvement and excellence. The L&D Center is designed to enhance the skills and expertise of our employees, ensuring they stay ahead of industry trends and deliver superior service to our clients.
                       </div>
                       <div className="w-fit opacity-0">
-                        <button className="flex cursor-default text-wrap gap-2 justify-center items-center self-start px-2 text-xs uppercase bg-red-700 border border-solid border-zinc-900 border-opacity-10 rounded-[50px]">
+                        <button className="flex cursor-default text-wrap gap-2 justify-center items-center self-start px-2 text-xs uppercase bg-[#FF0000] border border-solid border-zinc-900 border-opacity-10 rounded-[50px]">
                           <span className="py-3 pl-4 my-auto">Read More</span>
                           <img
                             loading="lazy"
@@ -1004,14 +1004,14 @@ export default function Home() {
               <div className="gap-7 tracking-[1px]">
                 <div className="text-xs X-axis-anm my-auto opacity-0 cursor-default">40 ARTICLES IN TOTAL</div>
                 <button
-                  className={`bg-red-700 X-axis-anm hover:bg-black rounded-full mr-2 p-4 ${currentIndex === 0 ? "visibility-hidden" : "visible"}`}
+                  className={`bg-[#FF0000] X-axis-anm hover:bg-black rounded-full mr-2 p-4 ${currentIndex === 0 ? "visibility-hidden" : "visible"}`}
                   onClick={prevSlide}
                   style={{ visibility: currentIndex === 0 ? "hidden" : "visible" }} // Hide button if at the first slide
                 >
                   <img src="/HomePageImg/LeftArrow.png" alt="LeftArrow" className="w-8" />
                 </button>
                 <button
-                  className={`bg-red-700 X-axis-anm hover:bg-black rounded-full ml-2 p-4 ${currentIndex >= totalItems - itemsPerPage ? "visibility-hidden" : "visible"}`}
+                  className={`bg-[#FF0000] X-axis-anm hover:bg-black rounded-full ml-2 p-4 ${currentIndex >= totalItems - itemsPerPage ? "visibility-hidden" : "visible"}`}
                   onClick={nextSlide}
                   style={{ visibility: currentIndex >= totalItems - itemsPerPage ? "hidden" : "visible" }} // Hide button 1 slide before the last
                 >
@@ -1267,7 +1267,7 @@ const WhatWeDoSection = () => {
                             {buttonData[hoveredButtonIndex]?.description || "Earthing studies assess the performance of grounding systems through soil resistivity testing and resistance measurements. These studies help ensure compliance with safety standards, protect equipment, and prevent electrical hazards."}
                           </p>
                           <Link href={buttonData[hoveredButtonIndex]?.path || "/grounding-system-studies"}>
-                            <button className="gap-2.5 text-xs 2xl:text-base self-stretch px-5 py-2 mt-12  text-[#FF0000] uppercase bg-white hover:bg-red-700 hover:text-white 2xl:py-3 rounded-[50px] 2xl:px-12">
+                            <button className="gap-2.5 text-xs 2xl:text-base self-stretch px-5 py-2 mt-12  text-[#FF0000] uppercase bg-white hover:bg-[#FF0000] hover:text-white 2xl:py-3 rounded-[50px] 2xl:px-12">
                               Read more
                             </button>
                           </Link>

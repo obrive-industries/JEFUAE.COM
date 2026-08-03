@@ -315,7 +315,7 @@ const IES = () => {
     ]
 
     const buttons = [
-        { text: 'CONTACT US', className: 'bg-red-700' }
+        { text: 'CONTACT US', className: 'bg-[#FF0000]' }
     ];
 
 
@@ -336,7 +336,7 @@ const IES = () => {
                         </h1>
                         <div className="flex gap-6 items-center self-start mt-8 text-lg uppercase text-neutral-900  max-md:mt-10">
                             <Link href={'/get-in-touch'}>
-                                <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-red-700 hover:text-white 2xl:min-h-[64px] rounded-[50px]">
+                                <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-[#FF0000] hover:text-white 2xl:min-h-[64px] rounded-[50px]">
                                     Get in touch
                                 </button>
                             </Link>
@@ -597,7 +597,7 @@ function TestimonialsSection() {
                             </div>
                             <div className="flex flex-wrap justify-center mt-10 max-w-full tracking-wider text-white uppercase w-full   mx-auto">
                                 <Link href={'/get-in-touch'}>
-                                    <button className={`flex overflow-hidden text-sm justify-center bg-red-700 items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
+                                    <button className={`flex overflow-hidden text-sm justify-center bg-[#FF0000] items-center self-center px-16 md:px-14 py-3 my-auto border border-solid border-zinc-800 border-opacity-10 min-h-[55px] rounded-[60px] `}>
                                         CONTACT US
                                     </button>
                                 </Link>
@@ -1070,10 +1070,10 @@ function StandardList({ standards }) {
         <ul className="flex flex-col p-4 mt-20 mx-8 w-full text-white uppercase max-w-[80.4375rem] tracking-[0.28313rem] max-md:mt-10 max-md:max-w-full">
             {standards.map((standard) => (
                 <li key={standard.id} className="card-slider Y-axis-card-anm flex flex-wrap gap-1 items-center mt-1 w-full font-light max-md:max-w-full">
-                    <div className={`grow shrink gap-2.5 self-stretch px-2.5 py-5 my-auto items-center  text-lg text-center ${standard.isRed ? 'bg-red-700' : 'border border-gray-500 border-solid'} min-h-[6.25rem] w-[9.3125rem]`}>
+                    <div className={`grow shrink gap-2.5 self-stretch px-2.5 py-5 my-auto items-center  text-lg text-center ${standard.isRed ? 'bg-[#FF0000]' : 'border border-gray-500 border-solid'} min-h-[6.25rem] w-[9.3125rem]`}>
                         {standard.title}
                     </div>
-                    <div className={`grow shrink gap-3 self-stretch p-2.5 my-auto text-lg leading-10 ${standard.isRed ? 'bg-red-700' : 'border border-gray-500 border-solid'} min-h-[6.25rem] min-w-[15rem] w-[66.25rem] max-md:max-w-full`}>
+                    <div className={`grow shrink gap-3 self-stretch p-2.5 my-auto text-lg leading-10 ${standard.isRed ? 'bg-[#FF0000]' : 'border border-gray-500 border-solid'} min-h-[6.25rem] min-w-[15rem] w-[66.25rem] max-md:max-w-full`}>
                         {standard.description}
                     </div>
                 </li>

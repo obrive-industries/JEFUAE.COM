@@ -159,7 +159,7 @@ const Blog = () => {
                         <div className="flex relative flex-col mb-0 max-w-full mt-[3%] inset-y-3/4 lg:inset-x-20 p-4   max-md:mt-10 max-md:mb-2.5 max-md:ml-2.5">
                             <h1 className="self-start text-6xl font-bold tracking-wider text-white">BLOGS</h1>
                             {/* <div className="flex gap-2 md:gap-4 lg:gap-6 items-center mt-12 text-2xl uppercase text-neutral-900 tracking-[3px] max-md:mt-10">
-              <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-red-700 hover:text-white 2xl:min-h-[64px] rounded-[50px]">
+              <button className="uppercase px-5 lg:px-10 self-stretch  py-2 lg:py-3 my-auto bg-white border border-solid border-zinc-900 border-opacity-10 text-lg hover:bg-[#FF0000] hover:text-white 2xl:min-h-[64px] rounded-[50px]">
                 Get in touch
               </button>
             </div> */}
@@ -196,7 +196,7 @@ const Blog = () => {
           <button className="gap-2.5 self-stretch px-2.5 py-2 my-auto text-base text-[#FF0000] uppercase whitespace-nowrap border border-red-700 border-solid min-h-[40px] rounded-[60px] w-[129px]">
             Previous
           </button>
-          <button className="flex gap-2.5 justify-center items-center self-stretch px-2.5 py-2 my-auto bg-red-700 min-h-[40px] rounded-[60px] w-[129px]">
+          <button className="flex gap-2.5 justify-center items-center self-stretch px-2.5 py-2 my-auto bg-[#FF0000] min-h-[40px] rounded-[60px] w-[129px]">
             <span className="self-stretch my-auto text-base text-white uppercase">Next</span>
             <span className="flex flex-col items-start self-stretch pl-0.5 my-auto min-h-[15px] w-[17px]">
               <span className="flex flex-col justify-center min-h-[15px] w-[15px]">
