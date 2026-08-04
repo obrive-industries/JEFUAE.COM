@@ -111,7 +111,8 @@ function Footer() {
                         <Link href="/cookiepolicy" >· Cookie Policy</Link>   
                     </div>
                     <div className="sm:text-xs text-[10px] card-slider-footer mx-auto lg:mx-0 flex gap-0 tracking-wide max-md:max-w-full">
-                        Copyright 2025. All Rights Reserved © jeftechno | Designed by
+                        Copyright 2025. All Rights Reserved © jeftechno | Production Company
+                        {/* Copyright 2025. All Rights Reserved © jeftechno | Designed by */}
                         <Link className='ml-[5px]' href="https://www.obnov.in/" target="_blank" rel="noopener noreferrer"><img 
                         // src="https://obnov.in/MainObnovImg.png"
                         src="/FooterLogo/obrive-footer-logo.png"
